@@ -1,0 +1,22 @@
+form label{
+   font-size: "12px";
+   font-weight: regular;
+}
+
+form span{
+    float:right;
+    color:#36A546;
+}
+
+form div{
+    background-color: #36A546;
+    border:none;
+    height:12px;
+    border-radius:50px;
+    margin-top:6px;
+    font-size: 14px;
+}
+
+form{
+    font-family: "Mulish";
+}

@@ -1,0 +1,45 @@
+.card{
+    background-color: rgb(19,24,22);
+    border: 1px solid black;
+    color: white;
+    padding: 8px;
+    width: 315px;
+    font-size: larger;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardspan{
+    float:right;
+    border:1px solid white;
+    border-radius:50%;
+    padding:2px;
+    align-self: flex-end;
+}
+
+@media screen and (min-width: 385px) and (max-width: 395px) and (min-height:829px) and (max-height: 839px) {
+    .card{
+        width: 275px;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFFB3;
+        font-size: 20px;
+    }
+    .cardspan{
+        border-radius: 50%;
+        padding: 3px;
+    }
+}
+
+@media screen and (min-width: 408px) and (max-width: 418px) and (min-height:909px) and (max-height: 919px) {
+    .card{
+        width: 305px;
+        padding: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFFB3;
+        font-size:21px;
+    }
+    .cardspan{
+        border-radius: 40%;
+        padding: 5px;
+    }
+ }
